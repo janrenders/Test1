@@ -1,0 +1,78 @@
+body {
+  font-family: helvetica;
+  width: 90%;
+  margin: 25px auto;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  background-color: steelblue;
+  color: white;
+  padding: 20px;
+}
+
+section {
+  margin: 25px 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.2em;
+}
+
+h2 {
+  margin: 25px 0;
+  font-family: 'Bree serif';
+  font-size: 1.7em;
+}
+
+h2 a {
+  text-decoration: none;
+  color: dimgrey;
+}
+
+hr {
+  height: 2px;
+  background-color: steelblue;
+}
+
+h3 {
+  display: inline;
+}
+
+nav {
+  margin: 25px 0;
+  font-family: 'Bree serif';
+
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 5px;
+  text-decoration: none;
+  color: steelblue;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 535px) {
+      nav{
+            width: 100%;
+            line-height: 1.7em;
+            font-size: 1.3em;
+
+      }
+}
