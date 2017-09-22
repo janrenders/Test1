@@ -1,6 +1,6 @@
 <% include header %>
 
-<h1>DAILY GRAPHIC</h1>
+<h1>BAUGASM 365DAYS EXPO</h1>
 
 <nav>
   <% for (var i = 0; i < categorieen.length; i++) { %>
@@ -19,14 +19,16 @@
         </h2>
 
         <img src="/img/<%- item.afbeeldings %>" alt="<%- item.titel %>">
-        <p><%- item.datum %></p>
+        <p><%- item.uitvoerder %></p>
 
         <p>
           <%- item.samenvatting %>
         </p>
         <hr>
 
+
     </section>
+
     <% teller++;}); %>
 
 <% include footer %>
